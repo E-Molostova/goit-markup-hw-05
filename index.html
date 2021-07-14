@@ -369,6 +369,29 @@
   </footer>
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
+      <form>
+        <p>Оставьте свои данные, мы Вам перезвоним</p>
+
+        <div class="form-field">
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name">
+        </div>
+
+        <div class="form-field">
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div class="form-field">
+          <label for="mail">Почта</label>
+          <input type="email" name="mail" id="mail">
+        </div>
+        <textarea name="feedback" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+        <input type="checkbox" value="agree" id="agree">
+        <label for="agree">Соглашаюсь с рассылкой и принимаю условия договора</label>
+        <button type="submit">Отправить</button>
+
+      </form>
       <button class="close-btn" type="button" data-modal-close>X</button>
     </div>
   </div>
